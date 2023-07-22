@@ -26,4 +26,15 @@ console.log(typeof profession)
 console.log(typeof price)
 console.log(typeof Tv)
 
+let pet = 'dog'
+console.log('My pet is a '+ pet)
+pet = 'cat'
+console.log('My pet is a '+ pet)
+
+let petAvailable = true
+let petColor
+console.log(petColor)
+petColor = 'white'
+console.log("My pet's color is " + petColor)
+
 
