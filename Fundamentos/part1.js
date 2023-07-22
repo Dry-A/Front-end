@@ -43,6 +43,7 @@ let petFriend = {
     petColor : 'black',
     petName : 'Danka',
     petAge : 5,
+    petRace: 'Lulu Pomerania',
     petAvailable : true,
 
 };
