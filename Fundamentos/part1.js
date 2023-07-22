@@ -39,5 +39,19 @@ console.log("My pet's color is " + petColor)
 let petName = 'Toto'
 console.log("My pet's name is " + petName)
 
+let petFriend = {
+    petColor : 'black',
+    petName : 'Danka',
+    petAge : 5,
+    petAvailable : true,
+
+};
+
+console.log(petFriend)
+
+petFriend.petColor = ' Brown'
+
+console.log(petFriend)
+
 
 
