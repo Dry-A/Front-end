@@ -36,5 +36,8 @@ let petColor
 console.log(petColor)
 petColor = 'white'
 console.log("My pet's color is " + petColor)
+let petName = 'Toto'
+console.log("My pet's name is " + petName)
+
 
 
