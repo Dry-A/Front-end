@@ -260,3 +260,27 @@ let driverSpeed = 190;
 
 let speedLevel = driverSpeed > 110 ? "Above" : "Below";
 console.log("Speed is", speedLevel, " of the allowed speed");
+
+
+let nome = 'Celine Dion'
+document.getElementById('name').innerHTML = nome
+
+let comidaFavorita = 'pizza de gorgonzola'
+document.getElementById('prato').innerHTML= comidaFavorita
+
+let cidade = 'Londres'
+document.getElementById('cidade').innerHTML = cidade
+
+let mesNascimento = 'julho'
+document.getElementById('uva').innerHTML = mesNascimento
+
+let curso = 'Sistemas para Internet'
+document.getElementById('curso').innerHTML = curso
+
+/*
+ou assim:
+document.getElementById('bananinha').innerHTML= 'lanche natural de atum'*/
+
+
+
+
