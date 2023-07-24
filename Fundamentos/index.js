@@ -27,6 +27,29 @@ console.log(typeof profession);
 console.log(typeof price);
 console.log(typeof Tv);
 
+/*Arithmetic Operators*/
+
+let num1 = 20
+let num2 = 2
+console.log(num1+num2)
+console.log(num1-num2)
+console.log(num1*num2)
+console.log(num1/num2)
+console.log(num1++)/*show first, then add*/
+console.log(num1)
+console.log(++num1)
+console.log(num1)
+console.log(num1--)/*show first, then subtract*/
+console.log(num1)
+
+/*ternary operator and logical operator*/
+
+let driverSpeed = 190
+
+let speedLevel = driverSpeed > 110 ? 'Above' : 'Below'
+console.log('Speed is' , speedLevel,' of the allowed speed')
+
+
 let pet = "dog";
 console.log("My pet is a " + pet);
 pet = "cat";
@@ -40,16 +63,4 @@ console.log("My pet's color is " + petColor);
 let petName = "Toto";
 console.log("My pet's name is " + petName);
 
-let petFriend = {
-  petColor: "black",
-  petName: "Danka",
-  petAge: 5,
-  petRace: "Lulu Pomerania",
-  petAvailable: true,
-};
 
-console.log(petFriend);
-
-petFriend.petColor = " Brown";
-
-console.log(petFriend);
