@@ -1,4 +1,3 @@
-/* functions*/
 let friends = ["Minie", "Pateta", "Legolas", "Eleven", "Duidow"];
 
 console.log(friends);
@@ -18,29 +17,8 @@ function giveDiscount(value) {
 
 let valueWithDiscount = giveDiscount(1000);
 
-console.log(valueWithDiscount);
+console.log('Valor com desconto R$ ',valueWithDiscount);
 
-/*Arithmetic Operators*/
-
-let num1 = 20
-let num2 = 2
-console.log(num1+num2)
-console.log(num1-num2)
-console.log(num1*num2)
-console.log(num1/num2)
-console.log(num1++)/*show first, then add*/
-console.log(num1)
-console.log(++num1)
-console.log(num1)
-console.log(num1--)/*show first, then subtract*/
-console.log(num1)
-
-/*ternary operator and logical operator*/
-
-let driverSpeed = 190
-
-let speedLevel = driverSpeed > 110 ? 'Above ' : 'Below'
-console.log(speedLevel)
 
 
 
